@@ -40,7 +40,9 @@ body{
     background-position: center;
     height: 120%;
     color: #fff  ;
-    
+	-webkit-text-stroke-width: 1px; 
+	-webkit-text-stroke-color: black; 
+
 }.banner-container p{
    
     font-size: 28px;
@@ -67,23 +69,27 @@ body{
 
 /* banner 4 */
 .container4{
-    background-image: url(image/car-torn-banner.png);
+	
+    background:url(image/car-torn-banner2.png);
+
     width: 100%;
     background-size: cover;
     display: flex;
     max-width: auto;
     background-position: center;
-    height: 120%;
-    color: #fff  ;
+  
+    color: black  ;
 	
 	
 }.bannertxt4{
-    margin-top: 40;
-    padding-left: 30%;
+  margin-top: 50px;
+   align-items: center;
 }
 /* end row */
 /* gallery */h6, p {
   font-family: sans-serif;
+}.car{
+	margin-top: 180px;
 }
 
 .c-heroImageGrid {
@@ -111,7 +117,7 @@ body{
 }
 
 .c-heroImageGrid .container .column:nth-of-type(1) {
-	border-right: 8px solid white;
+	border-right: 8px solid #ebebeb;
 	width: 25%;
 	height: 66vw;
 }
@@ -143,7 +149,7 @@ body{
 }
 
 .c-heroImageGrid .container .column:nth-of-type(2) .row {
-	border-top: 8px solid #fff;
+	border-top: 8px solid #ebebeb;
 }
 
 
@@ -205,7 +211,7 @@ body{
 
 .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text h6 p {
 	position: absolute;
-	color: #fff;
+	color: #ebebeb;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 1.35vw;
@@ -220,7 +226,7 @@ body{
 .c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2) {
 	position: relative;
 	width: 70%;
-	border-left: 8px solid white;
+	border-left: 8px solid #ebebeb;
 	overflow: hidden;
 }
 
@@ -266,20 +272,38 @@ body{
 	background-image: url(https://pictures.dealer.com/m/mnao/1541/00009b28a283f08506422888c0f4551fx.jpg);
 }.carou{
 	margin-bottom: 30px;
+}.carousel-caption{
+	-webkit-text-stroke-width: 1px; 
+	-webkit-text-stroke-color: black; 
 }
 /* end row */
 
 /* banner 6 */
 .bannertxt6{
+	padding-left:50px;
+	
 	display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
 	width: 100%;
+	
+	margin-bottom: 20px;
 }#banner6{
 	padding-right:25px;
-	
+
+}.formdesign{
+	border: 1px solid black;
+	background: #fff;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+	height: 100%;
+	margin: 5px;
+}.spacerow{
+	margin-top: 20px;
 }
 /* end row */
 .banner7image{
